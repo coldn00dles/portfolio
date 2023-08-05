@@ -1,0 +1,11 @@
+<div class="nav">
+    {{- $currentPage := . -}}
+    {{ range .Site.Menus.main -}}
+      {{ if eq .Identifier "resume" }}
+        <a href="{{ .URL | absLangURL }}" target="_blank" rel="noopener noreferrer">{{ .Name }}</a>
+      {{ else }}
+        <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+      {{ end }}
+    {{- end }}
+  </div>
+  

@@ -1,0 +1,144 @@
+# Hey, thanks for using my theme. If you like this theme,checkout my repo (https://gitlab.com/avron/gruvhugo"
+# and drop a star while you're at it. ;)
+baseurl = "https://examplesite.com/"
+title = "Ashutosh Bandooni"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+#disqusShortname = "" # Enable comments by entering your Disqus shortname
+#googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+#-------------------------------------------------------------------------------
+# DEFAULT SETTINGS
+#-------------------------------------------------------------------------------
+
+# Default Theme
+theme= "gruvhugo"
+
+# Default Post Extension
+defaultExtension= "html"
+
+# Default metadata format for newly created frontmatter using
+# hugo new command. "toml", "yaml", or "json"
+metaDataFormat= "yaml"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params.main]
+  enabled = true
+  enableKatex = true
+  metaKeywords = "fast, hugo, theme, minimal, gruvbox"
+  headerTitle = "Ashutosh Bandooni"
+  copyright = "© 2023 Ashutosh Bandooni"
+  name = "jane_doe"
+  img = "images/mugshot.jpeg"
+  icon = "images/bruh.png"
+  description= "Hi there! I am Ashutosh, currently in my third year of B.Tech in Computer Science and Engineering at VIT Chennai. My current interests lie in Supervised Machine Learning, as well as Deep Learning."
+  licenseUrl = ""
+
+ # Social icons
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/ashutoshbandooni/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:abandooni123@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/coldn00dles"
+
+  [[params.social]]
+    name = "dev"
+    url  = "https://dev.to/coldn00dles"
+
+
+
+
+[params.style]
+  # add path to custom CSS files here
+  custom_css = ["static/custom.css"]
+  # add path to custom SCSS files here
+  custom_scss = []
+
+[menu]
+  [[menu.main]]
+    identifier = "skills"
+    name       = "Skills"
+    url        = "skills"
+    weight = 1
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "projects/"
+    weight = 2
+  [[menu.main]]
+    identifier = "resume"
+    name       = "Resume"
+    url        = "https://drive.google.com/file/d/1tQI4Sg_DrZz3i5U2DUgViyyv7h96146x/view?usp=sharing"
+    weight = 3
+
+
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.asciidocExt]
+    backend = "html5"
+    docType = "article"
+    extensions = []
+    failureLevel = "fatal"
+    noHeaderOrFooter = true
+    safeMode = "unsafe"
+    sectionNumbers = false
+    trace = false
+    verbose = true
+    workingFolderCurrent = false
+    [markup.asciidocExt.attributes]
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
