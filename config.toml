@@ -56,7 +56,6 @@ metaDataFormat= "yaml"
 
 
 
-
 [params.style]
   # add path to custom CSS files here
   custom_css = ["static/custom.css"]

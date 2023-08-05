@@ -3,4 +3,7 @@
 .project-list a {
     color: green; /* Replace 'your-desired-color' with your preferred color value */
   }
-  
+
+html {
+    font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+}
