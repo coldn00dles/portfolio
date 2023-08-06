@@ -4,6 +4,8 @@ baseurl = "www.ashutoshbandooni.tech"
 title = "Ashutosh Bandooni"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
+relativeURLs = true
+
 #disqusShortname = "" # Enable comments by entering your Disqus shortname
 #googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 #-------------------------------------------------------------------------------
