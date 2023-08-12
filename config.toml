@@ -78,7 +78,7 @@ metaDataFormat= "yaml"
   [[menu.main]]
     identifier = "resume"
     name       = "Resume"
-    url        = "https://drive.google.com/file/d/1tQI4Sg_DrZz3i5U2DUgViyyv7h96146x/view?usp=sharing"
+    url        = "https://drive.google.com/file/d/1pAq1dsIIwa9dFYCPEll-bX4e2nIfcriO/view?usp=sharing"
     weight = 3
 
 
