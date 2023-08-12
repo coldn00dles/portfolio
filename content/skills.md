@@ -6,10 +6,13 @@ draft: false
 ### Programming Languages
  - Python
  - HTML 
+ - Java
  - JavaScript
  - C++
  - C
  - Arduino
+ - R
+ - Matlab
 
 ### Frameworks
  - Django
