@@ -4,7 +4,7 @@ TechnologiesUsed:
   - Python
   - MySQL
 githublink : https://github.com/coldn00dles/restrosimulator
-weight : 2
+weight : 4
 ---
 
 Made as a part of the CBSE Class 12th project.

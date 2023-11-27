@@ -5,7 +5,7 @@ TechnologiesUsed:
   - Material UI
   - Shrtcode API
 githublink : https://github.com/coldn00dles/snip-snap
-weight : 1
+weight : 3
 ---
 Snip-Snap is a simple URL Shortener which allows users to shorten any link available on the internet.
 

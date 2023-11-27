@@ -17,6 +17,7 @@ draft: false
 ### Frameworks
  - Django
  - React.js
+ - Langchain
 
 ### CSS
  - Vanilla
@@ -26,6 +27,7 @@ draft: false
  - MySQL
  - MongoDB
  - Firebase
+ - Pinecone
 
 ### Cloud Services
  - Google Cloud

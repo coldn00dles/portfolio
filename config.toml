@@ -36,7 +36,7 @@ metaDataFormat= "yaml"
   name = "jane_doe"
   img = "images/mugshot.jpeg"
   icon = "images/bruh.png"
-  description= "Hi there! I am Ashutosh, currently in my third year of B.Tech in Computer Science and Engineering at VIT Chennai. My current interests lie in Supervised Machine Learning, as well as Deep Learning."
+  description= "Hi there! I am Ashutosh, currently in my third year of B.Tech in Computer Science and Engineering at VIT Chennai. I am proficient in Python with more than five years of experience. My interests lie in Data Science and Deep Learning, with a niche in Natural Language Processing."
   licenseUrl = ""
 
  # Social icons
